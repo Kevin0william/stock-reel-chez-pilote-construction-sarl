@@ -480,91 +480,98 @@
     </div>
 
     <script>
-        /* ─── CONSTANTE PRODUITS (COLLE TON CODE ICI) ─── */
-        const products = [
-            /* ── carreaux-20x20 ── */
+   // --- CONSTANTE PRODUITS (COLLEZ VOS DONNÉES ICI) ---
+           const products = [
+            /* ── carreaux-20x20 ── ... */
             {
                 id: "FGP 22003C",
                 category: "carreaux-20x20",
-                image: "FGP_22003.jpeg",
+                image: "fgp22003.jpeg",
                 stock: 80,
                 disponible: true
             }, {
                 id: "FGP 22005C",
                 category: "carreaux-20x20",
-                image: "FGP_22005.jpeg",
+                image: "fgp22005.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 22006C",
                 category: "carreaux-20x20",
-                image: "FGP_22006.jpeg",
+                image: "fgp22006.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 22007C",
                 category: "carreaux-20x20",
-                image: "FGP_22007.jpeg",
+                image: "fgp22007.jpeg",
                 stock: 82,
                 disponible: true
             }, {
                 id: "FGP 22008",
                 category: "carreaux-20x20",
-                image: "FGP_22008.jpeg",
+                image: "fgp22008.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 22009",
                 category: "carreaux-20x20",
-                image: "FGP_22009.jpeg",
+                image: "fgp22009.jpeg",
                 stock: 12,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "FGP 22010C",
+                category: "carreaux-20x20",
+                image: "fgp22010.jpeg",
+                stock: 16,
+                disponible: true
+            },{
                 id: "FGP 22011C",
                 category: "carreaux-20x20",
-                image: "FGP_22011.jpeg",
+                image: "fgp22011.jpeg",
                 stock: 16,
                 disponible: true
             }, {
                 id: "FGP 22012",
                 category: "carreaux-20x20",
-                image: "FGP_22012.jpeg",
+                image: "fgp22012.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 22013C",
                 category: "carreaux-20x20",
-                image: "FGP_22013.jpeg",
+                image: "fgp22013.jpeg",
                 stock: 97,
                 disponible: true
             }, {
                 id: "FGP 22014",
                 category: "carreaux-20x20",
-                image: "FGP_22014.jpeg",
+                image: "fgp22014.jpeg",
                 stock: 59,
                 disponible: true
             }, {
                 id: "FGP 22015C",
                 category: "carreaux-20x20",
-                image: "FGP_22015.jpeg",
+                image: "fgp22015.jpeg",
                 stock: 100,
                 disponible: true
             }, {
                 id: "FGP 22016C",
                 category: "carreaux-20x20",
-                image: "FGP_22016.jpeg",
+                image: "fgp22016.jpeg",
                 stock: 150,
                 disponible: true
             }, {
                 id: "FGP 22017",
                 category: "carreaux-20x20",
-                image: "FGP_22017.jpeg",
+                image: "fgp22017.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YM 22024",
                 category: "carreaux-20x20",
-                image: "YM_22024.jpeg",
+                image: "ym22024.jpeg",
                 stock: 962,
                 disponible: true
             },
@@ -573,73 +580,176 @@
             {
                 id: "PMCP 23001C",
                 category: "carreaux-20x30",
-                image: "PMCP_23001.jpeg",
+                image: "pmcp23001.jpeg",
                 stock: 23,
                 disponible: true
             }, {
                 id: "PMCP 23004C",
                 category: "carreaux-20x30",
-                image: "PMCP_23004.jpeg",
+                image: "pmcp23004.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 23006C",
                 category: "carreaux-20x30",
-                image: "PMCP_23006.jpeg",
+                image: "pmcp23006.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 23014",
                 category: "carreaux-20x30",
-                image: "PMCP_23014.jpeg",
+                image: "pmcp23014.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 23017",
                 category: "carreaux-20x30",
-                image: "PMCP_23017.jpeg",
+                image: "pmcp23017.jpeg",
                 stock: 525,
                 disponible: true
             }, {
                 id: "PMCP 23018",
                 category: "carreaux-20x30",
-                image: "PMCP_23018.jpeg",
+                image: "pmcp23018.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
-                id: "PMCP 23022",
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23020",
                 category: "carreaux-20x30",
-                image: "PMCP_23022.jpeg",
+                image: "pmcp23020.jpeg",
                 stock: 77,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "PMCP 23022",
+                category: "carreaux-20x30",
+                image: "pmcp23022.jpeg",
+                stock: 77,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23023",
+                category: "carreaux-20x30",
+                image: "pmcp23023.jpeg",
+                stock: 77,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23033",
+                category: "carreaux-20x30",
+                image: "pmcp23033.jpeg",
+                stock: 77,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 23034",
                 category: "carreaux-20x30",
-                image: "PMCP_23034.jpeg",
+                image: "pmcp23034.jpeg",
                 stock: 304,
                 disponible: true
             }, {
                 id: "PMCP 23036",
                 category: "carreaux-20x30",
-                image: "PMCP_23036.jpeg",
+                image: "pmcp23036.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
                 id: "PMCP 23039",
                 category: "carreaux-20x30",
-                image: "PMCP_23039.jpeg",
+                image: "pmcp23039.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23041",
+                category: "carreaux-20x30",
+                image: "pmcp23041.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 23041C",
                 category: "carreaux-20x30",
-                image: "PMCP_23041.jpeg",
+                image: "pmcp23041.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23074C",
+                category: "carreaux-20x30",
+                image: "pmcp23074.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23089C",
+                category: "carreaux-20x30",
+                image: "pmcp23089.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23090C",
+                category: "carreaux-20x30",
+                image: "pmcp23090.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 23091C",
+                category: "carreaux-20x30",
+                image: "pmcp23091.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
+                id: "PMCP 23558C",
+                category: "carreaux-20x30",
+                image: "pmcp23558.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
+                id: "PMCP 23616C",
+                category: "carreaux-20x30",
+                image: "pmcp23616.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
+                id: "PMCP 23618C",
+                category: "carreaux-20x30",
+                image: "pmcp23618.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
+                id: "PMCP 23640C",
+                category: "carreaux-20x30",
+                image: "pmcp23640.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
                 id: "PMCP 239833C",
                 category: "carreaux-20x30",
-                image: "PMCP_239833.jpeg",
+                image: "pmcp239833.jpeg",
+                stock: 142,
+                disponible: true
+            },
+            {
+                id: "PMCP 239885C",
+                category: "carreaux-20x30",
+                image: "pmcp239885.jpeg",
+                stock: 142,
+                disponible: true
+            },
+            {
+                id: "PMCP 239964C",
+                category: "carreaux-20x30",
+                image: "pmcp239964.jpeg",
                 stock: 142,
                 disponible: true
             },
@@ -650,310 +760,366 @@
                 category: "carreaux-20x40",
                 image: "23302.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "2D9901",
                 category: "carreaux-20x40",
-                image: "2D9901.jpeg",
+                image: "2d9901.jpeg",
                 stock: 104,
                 disponible: true
             }, {
                 id: "P22132",
                 category: "carreaux-20x40",
-                image: "P22132.jpeg",
+                image: "p22132.jpeg",
                 stock: 61,
                 disponible: true
             }, {
                 id: "W24032C",
                 category: "carreaux-20x40",
-                image: "W24032.jpeg",
+                image: "w24032.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "W24048",
                 category: "carreaux-20x40",
-                image: "W24048.jpeg",
+                image: "w24048.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             },
 
             /* ── carreaux-25x40 ── */
             {
                 id: "PMCP 4117C",
                 category: "carreaux-25x40",
-                image: "PMCP_4117.jpeg",
+                image: "pmcp4117.jpeg",
                 stock: 314,
                 disponible: true
             }, {
                 id: "PMCP 42001C",
                 category: "carreaux-25x40",
-                image: "PMCP_42001.jpeg",
+                image: "pmcp42001.jpeg",
                 stock: 354,
                 disponible: true
             }, {
                 id: "PMCP 42003",
                 category: "carreaux-25x40",
-                image: "PMCP_42003.jpeg",
+                image: "pmcp42003.jpeg",
                 stock: 30,
                 disponible: true
             }, {
                 id: "PMCP 42005",
                 category: "carreaux-25x40",
-                image: "PMCP_42005.jpeg",
+                image: "pmcp42005.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42006",
                 category: "carreaux-25x40",
-                image: "PMCP_42006.jpeg",
+                image: "pmcp42006.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42012C",
                 category: "carreaux-25x40",
-                image: "PMCP_42012.jpeg",
+                image: "pmcp42012.jpeg",
                 stock: 75,
                 disponible: true
             }, {
                 id: "PMCP 42018",
                 category: "carreaux-25x40",
-                image: "PMCP_42018.jpeg",
+                image: "pmcp42018.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42019C",
                 category: "carreaux-25x40",
-                image: "PMCP_42019.jpeg",
+                image: "pmcp42019.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42022C",
                 category: "carreaux-25x40",
-                image: "PMCP_42022.jpeg",
+                image: "pmcp42022.jpeg",
                 stock: 85,
                 disponible: true
             }, {
                 id: "PMCP 42023C",
                 category: "carreaux-25x40",
-                image: "PMCP_42023.jpeg",
+                image: "pmcp42023.jpeg",
                 stock: 106,
                 disponible: true
             }, {
                 id: "PMCP 42026",
                 category: "carreaux-25x40",
-                image: "PMCP_42026.jpeg",
+                image: "pmcp42026.jpeg",
                 stock: 127,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "PMCP 42027C",
                 category: "carreaux-25x40",
-                image: "PMCP_42027.jpeg",
+                image: "pmcp42027.jpeg",
                 stock: 219,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "PMCP 42028C",
+                category: "carreaux-25x40",
+                image: "pmcp42028.jpeg",
+                stock: 219,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 42029C",
                 category: "carreaux-25x40",
-                image: "PMCP_42029.jpeg",
+                image: "pmcp42029.jpeg",
                 stock: 207,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "PMCP 42030C",
+                category: "carreaux-25x40",
+                image: "pmcp42030.jpeg",
+                stock: 207,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 42032",
                 category: "carreaux-25x40",
-                image: "PMCP_42032.jpeg",
+                image: "pmcp42032.jpeg",
                 stock: 168,
                 disponible: true
             }, {
                 id: "PMCP 42035C",
                 category: "carreaux-25x40",
-                image: "PMCP_42035.jpeg",
+                image: "pmcp42035.jpeg",
                 stock: 126,
                 disponible: true
             }, {
                 id: "PMCP 42037C",
                 category: "carreaux-25x40",
-                image: "PMCP_42037.jpeg",
+                image: "pmcp42037.jpeg",
                 stock: 94,
                 disponible: true
             }, {
                 id: "PMCP 42041C",
                 category: "carreaux-25x40",
-                image: "PMCP_42041.jpeg",
+                image: "pmcp42041.jpeg",
                 stock: 10,
                 disponible: true
             }, {
                 id: "PMCP 42042C",
                 category: "carreaux-25x40",
-                image: "PMCP_42042.jpeg",
+                image: "pmcp42042.jpeg",
                 stock: 22,
                 disponible: true
             }, {
                 id: "PMCP 42043C",
                 category: "carreaux-25x40",
-                image: "PMCP_42043.jpeg",
+                image: "pmcp42043.jpeg",
                 stock: 219,
                 disponible: true
             }, {
                 id: "PMCP 42044",
                 category: "carreaux-25x40",
-                image: "PMCP_42044.jpeg",
+                image: "pmcp42044.jpeg",
                 stock: 327,
                 disponible: true
             }, {
                 id: "PMCP 42047C",
                 category: "carreaux-25x40",
-                image: "PMCP_42047.jpeg",
+                image: "pmcp42047.jpeg",
                 stock: 78,
                 disponible: true
             }, {
                 id: "PMCP 42049",
                 category: "carreaux-25x40",
-                image: "PMCP_42049.jpeg",
+                image: "pmcp42049.jpeg",
                 stock: 54,
                 disponible: true
             }, {
                 id: "PMCP 42053C",
                 category: "carreaux-25x40",
-                image: "PMCP_42053.jpeg",
+                image: "pmcp42053.jpeg",
                 stock: 208,
                 disponible: true
             }, {
                 id: "PMCP 42054C",
                 category: "carreaux-25x40",
-                image: "PMCP_42054.jpeg",
+                image: "pmcp42054.jpeg",
                 stock: 37,
                 disponible: true
             }, {
                 id: "PMCP 42055C",
                 category: "carreaux-25x40",
-                image: "PMCP_42055.jpeg",
+                image: "pmcp42055.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42059",
                 category: "carreaux-25x40",
-                image: "PMCP_42059.jpeg",
+                image: "pmcp42059.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42060",
                 category: "carreaux-25x40",
-                image: "PMCP_42060.jpeg",
+                image: "pmcp42060.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42064",
                 category: "carreaux-25x40",
-                image: "PMCP_42064.jpeg",
+                image: "pmcp42064.jpeg",
                 stock: 205,
                 disponible: true
             }, {
                 id: "PMCP 42065",
                 category: "carreaux-25x40",
-                image: "PMCP_42065.jpeg",
+                image: "pmcp42065.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42067",
                 category: "carreaux-25x40",
-                image: "PMCP_42067.jpeg",
+                image: "pmcp42067.jpeg",
                 stock: 458,
                 disponible: true
             }, {
                 id: "PMCP 42069",
                 category: "carreaux-25x40",
-                image: "PMCP_42069.jpeg",
+                image: "pmcp42069.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
                 id: "PMCP 42070",
                 category: "carreaux-25x40",
-                image: "PMCP_42070.jpeg",
+                image: "pmcp42070.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "PMCP 42071",
+                category: "carreaux-25x40",
+                image: "pmcp42071.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 42072",
                 category: "carreaux-25x40",
-                image: "PMCP_42072.jpeg",
+                image: "pmcp42072.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42073",
                 category: "carreaux-25x40",
-                image: "PMCP_42073.jpeg",
+                image: "pmcp42073.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42074",
                 category: "carreaux-25x40",
-                image: "PMCP_42074.jpeg",
+                image: "pmcp42074.jpeg",
                 stock: 163,
                 disponible: true
             }, {
                 id: "PMCP 42075",
                 category: "carreaux-25x40",
-                image: "PMCP_42075.jpeg",
+                image: "pmcp42075.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PMCP 42076",
                 category: "carreaux-25x40",
-                image: "PMCP_42076.jpeg",
+                image: "pmcp42076.jpeg",
                 stock: 114,
                 disponible: true
             }, {
                 id: "PMCP 42078",
                 category: "carreaux-25x40",
-                image: "PMCP_42078.jpeg",
+                image: "pmcp42078.jpeg",
                 stock: 433,
                 disponible: true
             }, {
                 id: "PMCP 42079",
                 category: "carreaux-25x40",
-                image: "PMCP_42079.jpeg",
+                image: "pmcp42079.jpeg",
                 stock: 414,
                 disponible: true
             }, {
                 id: "PMCP 42080",
                 category: "carreaux-25x40",
-                image: "PMCP_42080.jpeg",
+                image: "pmcp42080.jpeg",
                 stock: 29,
                 disponible: true
             }, {
                 id: "PMCP 42081",
                 category: "carreaux-25x40",
-                image: "PMCP_42081.jpeg",
+                image: "pmcp42081.jpeg",
                 stock: 82,
                 disponible: true
             }, {
                 id: "PMCP 42082",
                 category: "carreaux-25x40",
-                image: "PMCP_42082.jpeg",
+                image: "pmcp42082.jpeg",
                 stock: 229,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "PMCP 42083",
                 category: "carreaux-25x40",
-                image: "PMCP_42083.jpeg",
+                image: "pmcp42083.jpeg",
                 stock: 122,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "PMCP 42086",
+                category: "carreaux-25x40",
+                image: "pmcp42086.jpeg",
+                stock: 122,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 42087",
+                category: "carreaux-25x40",
+                image: "pmcp42087.jpeg",
+                stock: 122,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 42088",
+                category: "carreaux-25x40",
+                image: "pmcp42088.jpeg",
+                stock: 122,
+                disponible: true
+            }, 
+            {
+                id: "PMCP 42089",
+                category: "carreaux-25x40",
+                image: "pmcp42089.jpeg",
+                stock: 122,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 4229G",
                 category: "carreaux-25x40",
-                image: "PMCP_4229.jpeg",
+                image: "pmcp4229.jpeg",
                 stock: 378,
                 disponible: true
             }, {
                 id: "PMCP 4583C",
                 category: "carreaux-25x40",
-                image: "PMCP_4583.jpeg",
+                image: "pmcp4583.jpeg",
                 stock: 513,
                 disponible: true
             }, {
                 id: "PMCP 4639",
                 category: "carreaux-25x40",
-                image: "PMCP_4639.jpeg",
+                image: "pmcp4639.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             },
 
             /* ── carreaux-30x30 ── */
@@ -961,139 +1127,148 @@
             {
                 id: "FGP 33005",
                 category: "carreaux-30x30",
-                image: "FGP33005.jpg",
+                image: "fgp33005.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33010",
                 category: "carreaux-30x30",
-                image: "FGP33010.jpg",
+                image: "fgp33010.jpeg",
                 stock: 19,
                 disponible: true
             }, {
                 id: "FGP 33015",
                 category: "carreaux-30x30",
-                image: "FGP33015.jpg",
+                image: "fgp33015.jpeg",
                 stock: 323,
                 disponible: true
             }, {
                 id: "FGP 33020",
                 category: "carreaux-30x30",
-                image: "FGP33020.jpg",
+                image: "fgp33020.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33021",
                 category: "carreaux-30x30",
-                image: "FGP33021.jpg",
+                image: "fgp33021.jpeg",
                 stock: 732,
                 disponible: true
             }, {
                 id: "FGP 33022",
                 category: "carreaux-30x30",
-                image: "FGP33022.jpg",
+                image: "fgp33022.jpeg",
                 stock: 179,
                 disponible: true
             }, {
                 id: "FGP 33023",
                 category: "carreaux-30x30",
-                image: "FGP33023.jpg",
+                image: "fgp33023.jpeg",
                 stock: 97,
                 disponible: true
             }, {
                 id: "FGP 33024",
                 category: "carreaux-30x30",
-                image: "FGP33024.jpg",
+                image: "fgp33024.jpeg",
                 stock: 237,
                 disponible: true
             }, {
                 id: "FGP 33025",
                 category: "carreaux-30x30",
-                image: "FGP33025.jpg",
+                image: "fgp33025.jpeg",
                 stock: 237,
                 disponible: true
             }, {
                 id: "FGP 33026",
                 category: "carreaux-30x30",
-                image: "FGP33026.jpg",
+                image: "fgp33026.jpeg",
                 stock: 137,
                 disponible: true
             }, {
                 id: "FGP 33027",
                 category: "carreaux-30x30",
-                image: "FGP33027.jpg",
+                image: "fgp33027.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33028",
                 category: "carreaux-30x30",
-                image: "FGP33028.jpg",
+                image: "fgp33028.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33029",
                 category: "carreaux-30x30",
-                image: "FGP33029.jpg",
+                image: "fgp33029.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33030",
                 category: "carreaux-30x30",
-                image: "FGP33030.jpg",
+                image: "fgp33030.jpeg",
                 stock: 332,
                 disponible: true
             }, {
                 id: "FGP 33032",
                 category: "carreaux-30x30",
-                image: "FGP33032.jpg",
+                image: "fgp33032.jpeg",
                 stock: 40,
                 disponible: true
             }, {
                 id: "FGP 33034",
                 category: "carreaux-30x30",
-                image: "FGP33034.jpg",
+                image: "fgp33034.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33035",
                 category: "carreaux-30x30",
-                image: "FGP33035.jpg",
+                image: "fgp33035.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
                 id: "FGP 33036",
                 category: "carreaux-30x30",
-                image: "FGP33036.jpg",
+                image: "fgp33036.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "FGP 33037",
+                category: "carreaux-30x30",
+                image: "fgp33037.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "FGP 33038",
                 category: "carreaux-30x30",
-                image: "FGP33038.jpg",
+                image: "fgp33038.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33039",
                 category: "carreaux-30x30",
-                image: "FGP33039.jpg",
+                image: "fgp33039.jpeg",
                 stock: 180,
                 disponible: true
             }, {
                 id: "FGP 33112",
                 category: "carreaux-30x30",
-                image: "FGP33112.jpg",
+                image: "fgp33112.jpeg",
                 stock: 190,
                 disponible: true
             }, {
                 id: "FGP 33126",
                 category: "carreaux-30x30",
-                image: "FGP33126.jpg",
+                image: "fgp33126.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 33130",
                 category: "carreaux-30x30",
-                image: "fgp33130.jpg",
+                image: "fgp33130.jpeg",
                 stock: 143,
                 disponible: true
             },
@@ -1101,61 +1276,70 @@
             {
                 id: "NM 33001",
                 category: "carreaux-30x30",
-                image: "NM33001.jpeg",
+                image: "nm33001.jpeg",
                 stock: 978,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "NM 33003",
                 category: "carreaux-30x30",
-                image: "NM33003.jpeg",
+                image: "nm33003.jpeg",
                 stock: 488,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "NM 33005",
+                category: "carreaux-30x30",
+                image: "nm33005.jpeg",
+                stock: 488,
+                disponible: true
+            }, 
+            {
                 id: "NM 33021",
                 category: "carreaux-30x30",
-                image: "NM33021.jpeg",
+                image: "nm33021.jpeg",
                 stock: 271,
                 disponible: true
             }, {
                 id: "NM 33041",
                 category: "carreaux-30x30",
-                image: "NM33041.jpeg",
+                image: "nm33041.jpeg",
                 stock: 208,
                 disponible: true
             }, {
                 id: "NM 33043",
                 category: "carreaux-30x30",
-                image: "NM33043.jpeg",
+                image: "nm33043.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "NM 33091",
                 category: "carreaux-30x30",
-                image: "NM33091.jpeg",
+                image: "nm33091.jpeg",
                 stock: 46,
                 disponible: true
             }, {
                 id: "NM 33101",
                 category: "carreaux-30x30",
-                image: "NM33101.jpeg",
+                image: "nm33101.jpeg",
                 stock: 693,
                 disponible: true
             }, {
                 id: "NM 33171",
                 category: "carreaux-30x30",
-                image: "NM33171.jpeg",
+                image: "nm33171.jpeg",
                 stock: 349,
                 disponible: true
             }, {
                 id: "NM 33233",
                 category: "carreaux-30x30",
-                image: "NM33233.jpeg",
+                image: "nm33233.jpeg",
                 stock: 114,
                 disponible: true
             }, {
                 id: "NM 33281",
                 category: "carreaux-30x30",
-                image: "NM33281.jpeg",
+                image: "nm33281.jpeg",
                 stock: 348,
                 disponible: true
             },
@@ -1163,220 +1347,318 @@
             {
                 id: "NMC 33005",
                 category: "carreaux-30x30",
-                image: "NMC33005.jpeg",
+                image: "nmc33005.jpeg",
                 stock: 169,
                 disponible: true
             }, {
                 id: "NMC 33095",
                 category: "carreaux-30x30",
-                image: "NMC33095.jpeg",
+                image: "nmc33095.jpeg",
                 stock: 277,
                 disponible: true
             }, {
                 id: "NMC 33105",
                 category: "carreaux-30x30",
-                image: "NMC33105.jpeg",
+                image: "nmc33105.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "NMC 33225",
                 category: "carreaux-30x30",
-                image: "NMC33225.jpeg",
+                image: "nmc33225.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "NMC 33285",
                 category: "carreaux-30x30",
-                image: "NMC33285.jpeg",
+                image: "nmc33285.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             },
 
             /* ── carreaux-30x60 ── */
             {
                 id: "PMCP 36001",
                 category: "carreaux-30x60",
-                image: "PMCP36001.jpeg",
+                image: "pmcp36001.jpeg",
                 stock: 367,
                 disponible: true
             }, {
                 id: "PMCP 36002",
                 category: "carreaux-30x60",
-                image: "PMCP36002.jpeg",
+                image: "pmcp36002.jpeg",
                 stock: 298,
                 disponible: true
             }, {
                 id: "PMCP 36003",
                 category: "carreaux-30x60",
-                image: "PMCP36003.jpeg",
+                image: "pmcp36003.jpeg",
                 stock: 227,
                 disponible: true
             }, {
                 id: "PMCP 36004",
                 category: "carreaux-30x60",
-                image: "PMCP36004.jpeg",
+                image: "pmcp36004.jpeg",
                 stock: 292,
                 disponible: true
             }, {
                 id: "PMCP 36005",
                 category: "carreaux-30x60",
-                image: "PMCP36005.jpeg",
+                image: "pmcp36005.jpeg",
                 stock: 95,
                 disponible: true
             }, {
                 id: "PMCP 36006",
                 category: "carreaux-30x60",
-                image: "PMCP36006.jpeg",
+                image: "pmcp36006.jpeg",
                 stock: 222,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "PMCP 36007",
                 category: "carreaux-30x60",
-                image: "PMCP36007.jpeg",
+                image: "pmcp36007.jpeg",
                 stock: 246,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "PMCP 36008",
+                category: "carreaux-30x60",
+                image: "pmcp36008.jpeg",
+                stock: 246,
+                disponible: true
+            }, 
+            {
                 id: "PMCP 36010",
                 category: "carreaux-30x60",
-                image: "PMCP36010.jpeg",
+                image: "pmcp36010.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
+            },
+            {
+                id: "PMCP 36011",
+                category: "carreaux-30x60",
+                image: "pmcp36011.jpeg",
+                stock: 0,
+                disponible: true
             },
 
             /* ── carreaux-40x40 ── */
+
+            
             /* ===== FGP ===== */
+            {
+                id: "FGP 44002",
+                category: "carreaux-40x40",
+                image: "fgp44002.jpeg",
+                stock: 557,
+                disponible: true
+            }, 
             {
                 id: "FGP 44005",
                 category: "carreaux-40x40",
-                image: "FGP44005.jpeg",
+                image: "fgp44005.jpeg",
                 stock: 557,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGP 44007",
                 category: "carreaux-40x40",
-                image: "FGP44007.jpeg",
+                image: "fgp44007.jpeg",
                 stock: 126,
                 disponible: true
             }, {
                 id: "FGP 44008",
                 category: "carreaux-40x40",
-                image: "FGP44008.jpeg",
+                image: "fgp44008.jpeg",
                 stock: 161,
                 disponible: true
             }, {
                 id: "FGP 44009",
                 category: "carreaux-40x40",
-                image: "FGP44009.jpeg",
+                image: "fgp44009.jpeg",
                 stock: 388,
                 disponible: true
             }, {
                 id: "FGP 44012",
                 category: "carreaux-40x40",
-                image: "FGP44012.jpeg",
+                image: "fgp44012.jpeg",
                 stock: 152,
                 disponible: true
             }, {
                 id: "FGP 44013",
                 category: "carreaux-40x40",
-                image: "FGP44013.jpeg",
+                image: "fgp44013.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "FGP 44020",
+                category: "carreaux-40x40",
+                image: "fgp44020.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "FGP 44021",
                 category: "carreaux-40x40",
-                image: "FGP44021.jpeg",
+                image: "fgp44021.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
                 id: "FGP 44022",
                 category: "carreaux-40x40",
-                image: "FGP44022.jpeg",
+                image: "fgp44022.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 44026",
                 category: "carreaux-40x40",
-                image: "FGP44026.jpeg",
+                image: "fgp44026.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 44027",
                 category: "carreaux-40x40",
-                image: "FGP44027.jpeg",
+                image: "fgp44027.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
                 id: "FGP 44028",
                 category: "carreaux-40x40",
-                image: "FGP44028.jpeg",
+                image: "fgp44028.jpeg",
                 stock: 340,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "FGP 44029",
+                category: "carreaux-40x40",
+                image: "fgp44029.jpeg",
+                stock: 340,
+                disponible: true
+            }, 
+            {
                 id: "FGP 44031",
                 category: "carreaux-40x40",
-                image: "FGP44031.jpeg",
+                image: "fgp44031.jpeg",
                 stock: 201,
                 disponible: true
             }, {
                 id: "FGP 44032",
                 category: "carreaux-40x40",
-                image: "FGP44032.jpeg",
+                image: "fgp44032.jpeg",
                 stock: 135,
                 disponible: true
             }, {
                 id: "FGP 44033",
                 category: "carreaux-40x40",
-                image: "FGP44033.jpeg",
+                image: "fgp44033.jpeg",
                 stock: 135,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGP 44035",
                 category: "carreaux-40x40",
-                image: "FGP44035.jpeg",
+                image: "fgp44035.jpeg",
                 stock: 52,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "FGP 44038",
+                category: "carreaux-40x40",
+                image: "fgp44038.jpeg",
+                stock: 52,
+                disponible: true
+            }, 
+            {
                 id: "FGP 44040",
                 category: "carreaux-40x40",
-                image: "FGP44040.jpeg",
+                image: "fgp44040.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 44041",
                 category: "carreaux-40x40",
-                image: "FGP44041.jpeg",
+                image: "fgp44041.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGP 44042",
                 category: "carreaux-40x40",
-                image: "FGP44042.jpeg",
+                image: "fgp44042.jpeg",
                 stock: 39,
                 disponible: true
             }, {
                 id: "FGP 44043",
                 category: "carreaux-40x40",
-                image: "FGP44043.jpeg",
+                image: "fgp44043.jpeg",
                 stock: 130,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGP 44044",
                 category: "carreaux-40x40",
-                image: "FGP44044.jpeg",
+                image: "fgp44044.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "FGP 44047",
+                category: "carreaux-40x40",
+                image: "fgp44047.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "FGP 44048",
+                category: "carreaux-40x40",
+                image: "fgp44048.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "FGP 44049",
+                category: "carreaux-40x40",
+                image: "fgp44049.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "FGP 44179",
                 category: "carreaux-40x40",
-                image: "FGP44179.jpeg",
+                image: "fgp44179.jpeg",
                 stock: 282,
                 disponible: true
             },
+
             /* ===== NM ===== */
             {
                 id: "NM 44001",
                 category: "carreaux-30x30",
-                image: "NM44001.jpeg",
+                image: "nm44001.jpeg",
+                stock: 410,
+                disponible: true
+            },
+            {
+                id: "NM 44003",
+                category: "carreaux-30x30",
+                image: "nm44003.jpeg",
+                stock: 410,
+                disponible: true
+            },
+            {
+                id: "NM 44005",
+                category: "carreaux-30x30",
+                image: "nm44005.jpeg",
+                stock: 410,
+                disponible: true
+            },
+            {
+                id: "NM 44006",
+                category: "carreaux-30x30",
+                image: "nm44006.jpeg",
                 stock: 410,
                 disponible: true
             },
@@ -1388,180 +1670,277 @@
                 stock: 282,
                 disponible: true
             },
+            
             /* ===== YMG ===== */
             {
                 id: "YMG 44002",
                 category: "carreaux-40x40",
-                image: "YMG44002.jpeg",
+                image: "ymg44002.jpeg",
                 stock: 399,
                 disponible: true
             }, {
                 id: "YMG 44003",
                 category: "carreaux-40x40",
-                image: "YMG44003.jpeg",
+                image: "ymg44003.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44004",
                 category: "carreaux-40x40",
-                image: "YMG44004.jpeg",
+                image: "ymg44004.jpeg",
                 stock: 524,
                 disponible: true
             }, {
                 id: "YMG 44008",
                 category: "carreaux-40x40",
-                image: "YMG44008.jpeg",
+                image: "ymg44008.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44009",
                 category: "carreaux-40x40",
-                image: "YMG44009.jpeg",
+                image: "ymg44009.jpeg",
                 stock: 46,
                 disponible: true
             }, {
                 id: "YMG 44012",
                 category: "carreaux-40x40",
-                image: "YMG44012.jpeg",
+                image: "ymg44012.jpeg",
                 stock: 388,
                 disponible: true
             }, {
                 id: "YMG 44017",
                 category: "carreaux-40x40",
-                image: "YMG44017.jpeg",
+                image: "ymg44017.jpeg",
                 stock: 562,
                 disponible: true
             }, {
                 id: "YMG 44022",
                 category: "carreaux-40x40",
-                image: "YMG44022.jpeg",
+                image: "ymg44022.jpeg",
                 stock: 279,
                 disponible: true
             }, {
                 id: "YMG 44024",
                 category: "carreaux-40x40",
-                image: "YMG44024.jpeg",
+                image: "ymg44024.jpeg",
                 stock: 277,
                 disponible: true
             }, {
                 id: "YMG 44025",
                 category: "carreaux-40x40",
-                image: "YMG44025.jpeg",
+                image: "ymg44025.jpeg",
                 stock: 117,
                 disponible: true
             }, {
                 id: "YMG 44032",
                 category: "carreaux-40x40",
-                image: "YMG44032.jpeg",
+                image: "ymg44032.jpeg",
                 stock: 33,
                 disponible: true
             }, {
                 id: "YMG 44034",
                 category: "carreaux-40x40",
-                image: "YMG44034.jpeg",
+                image: "ymg44034.jpeg",
                 stock: 84,
                 disponible: true
-            }, {
-                id: "YMG 44043",
+            }, 
+            {
+                id: "YMG 44041",
                 category: "carreaux-40x40",
-                image: "YMG44043.jpeg",
+                image: "ymg44041.jpeg",
                 stock: 82,
                 disponible: true
-            }, {
+            }, 
+            {
+                id: "YMG 44043",
+                category: "carreaux-40x40",
+                image: "ymg44043.jpeg",
+                stock: 82,
+                disponible: true
+            }, 
+            {
                 id: "YMG 44044",
                 category: "carreaux-40x40",
-                image: "YMG44044.jpeg",
+                image: "ymg44044.jpeg",
                 stock: 149,
                 disponible: true
             }, {
                 id: "YMG 44046",
                 category: "carreaux-40x40",
-                image: "YMG44046.jpeg",
+                image: "ymg44046.jpeg",
                 stock: 610,
                 disponible: true
             }, {
                 id: "YMG 44048",
                 category: "carreaux-40x40",
-                image: "YMG44048.jpeg",
+                image: "ymg44048.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44050",
                 category: "carreaux-40x40",
-                image: "YMG44050.jpeg",
+                image: "ymg44050.jpeg",
                 stock: 296,
                 disponible: true
             }, {
                 id: "YMG 44051",
                 category: "carreaux-40x40",
-                image: "YMG44051.jpeg",
+                image: "ymg44051.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44052",
                 category: "carreaux-40x40",
-                image: "YMG44052.jpeg",
+                image: "ymg44052.jpeg",
                 stock: 295,
                 disponible: true
             }, {
                 id: "YMG 44055",
                 category: "carreaux-40x40",
-                image: "YMG44055.jpeg",
+                image: "ymg44055.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44056",
                 category: "carreaux-40x40",
-                image: "YMG44056.jpeg",
+                image: "ymg44056.jpeg",
                 stock: 246,
                 disponible: true
             }, {
                 id: "YMG 44057",
                 category: "carreaux-40x40",
-                image: "YMG44057.jpeg",
+                image: "ymg44057.jpeg",
                 stock: 53,
                 disponible: true
             }, {
                 id: "YMG 44059",
                 category: "carreaux-40x40",
-                image: "YMG44059.jpeg",
+                image: "ymg44059.jpeg",
                 stock: 594,
                 disponible: true
             }, {
                 id: "YMG 44060",
                 category: "carreaux-40x40",
-                image: "YMG44060.jpeg",
+                image: "ymg44060.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44061",
                 category: "carreaux-40x40",
-                image: "YMG44061.jpeg",
+                image: "ymg44061.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 44062",
                 category: "carreaux-40x40",
-                image: "YMG44062.jpeg",
+                image: "ymg44062.jpeg",
                 stock: 95,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "YMG 44063",
                 category: "carreaux-40x40",
-                image: "YMG44063.jpeg",
+                image: "ymg44063.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "YMG 44066",
+                category: "carreaux-40x40",
+                image: "ymg44066.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44066",
+                category: "carreaux-40x40",
+                image: "ymg44066.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44067",
+                category: "carreaux-40x40",
+                image: "ymg44067.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44068",
+                category: "carreaux-40x40",
+                image: "ymg44068.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44069",
+                category: "carreaux-40x40",
+                image: "ymg44069.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44070",
+                category: "carreaux-40x40",
+                image: "ymg44070.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMG 44071",
+                category: "carreaux-40x40",
+                image: "ymg44071.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
                 id: "YMG 44223",
                 category: "carreaux-40x40",
-                image: "YMG44223.jpeg",
+                image: "ymg44223.jpeg",
                 stock: 233,
                 disponible: true
             }, {
                 id: "YMG 44224",
                 category: "carreaux-40x40",
-                image: "YMG44224.jpeg",
+                image: "ymg44224.jpeg",
                 stock: 101,
+                disponible: true
+            },
+            /* ===== PGS ===== */
+            {
+                id: "PGS 44014",
+                category: "carreaux-40x40",
+                image: "pgs44014.jpeg",
+                stock: 52,
+                disponible: true
+            },
+            {
+                id: "PGS 44016",
+                category: "carreaux-40x40",
+                image: "pgs44016.jpeg",
+                stock: 52,
+                disponible: true
+            },
+            {
+                id: "PGS 44029",
+                category: "carreaux-40x40",
+                image: "pgs44029.jpeg",
+                stock: 52,
+                disponible: true
+            },
+            {
+                id: "PGS 44076",
+                category: "carreaux-40x40",
+                image: "pgs44076.jpeg",
+                stock: 52,
+                disponible: true
+            },
+            {
+                id: "PGS 44222",
+                category: "carreaux-40x40",
+                image: "pgs44222.jpeg",
+                stock: 52,
                 disponible: true
             },
 
@@ -1579,521 +1958,627 @@
             {
                 id: "FGC 66001",
                 category: "carreaux-60x60",
-                image: "FGC66001.jpeg",
+                image: "fgc66001.jpeg",
                 stock: 52,
                 disponible: true
             }, {
                 id: "FGC 66002",
                 category: "carreaux-60x60",
-                image: "FGC66002.jpeg",
+                image: "fgc66002.jpeg",
                 stock: 476,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGC 66003",
                 category: "carreaux-60x60",
-                image: "FGC66003.jpeg",
+                image: "fgc66003.jpeg",
                 stock: 976,
                 disponible: true
-            }, {
+            },
+            {
+                id: "FGC 66004",
+                category: "carreaux-60x60",
+                image: "fgc66004.jpeg",
+                stock: 976,
+                disponible: true
+            },
+            {
+                id: "FGC 66005",
+                category: "carreaux-60x60",
+                image: "fgc66005.jpeg",
+                stock: 976,
+                disponible: true
+            },
+             {
                 id: "FGC 66006",
                 category: "carreaux-60x60",
-                image: "FGC66006.jpeg",
+                image: "fgc66006.jpeg",
                 stock: 17,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66007",
                 category: "carreaux-60x60",
-                image: "FGC66007.jpeg",
+                image: "fgc66007.jpeg",
                 stock: 41,
                 disponible: true
             }, {
                 id: "FGC 66008",
                 category: "carreaux-60x60",
-                image: "FGC66008.jpeg",
+                image: "fgc66008.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66009",
                 category: "carreaux-60x60",
-                image: "FGC66009.jpeg",
+                image: "fgc66009.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66010",
                 category: "carreaux-60x60",
-                image: "FGC66010.jpeg",
+                image: "fgc66010.jpeg",
                 stock: 346,
                 disponible: true
             }, {
                 id: "FGC 66011",
                 category: "carreaux-60x60",
-                image: "FGC66011.jpeg",
+                image: "fgc66011.jpeg",
                 stock: 146,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGC 66012",
                 category: "carreaux-60x60",
-                image: "FGC66012.jpeg",
+                image: "fgc66012.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            }, 
+            {
+                id: "FGC 66013",
+                category: "carreaux-60x60",
+                image: "fgc66013.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "FGC 66021",
+                category: "carreaux-60x60",
+                image: "fgc66021.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
                 id: "FGC 66022",
                 category: "carreaux-60x60",
-                image: "FGC66022.jpeg",
+                image: "fgc66022.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
+                disponible: true
+            },
+             {
                 id: "FGC 66023",
                 category: "carreaux-60x60",
-                image: "FGC66023.jpeg",
+                image: "fgc66023.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66024",
                 category: "carreaux-60x60",
-                image: "FGC66024.jpeg",
+                image: "fgc66024.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66025",
                 category: "carreaux-60x60",
-                image: "FGC66025.jpeg",
+                image: "fgc66025.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "FGC 66026",
                 category: "carreaux-60x60",
-                image: "FGC66026.jpeg",
+                image: "fgc66026.jpeg",
                 stock: 223,
                 disponible: true
             }, {
                 id: "FGC 66027",
                 category: "carreaux-60x60",
-                image: "FGC66027.jpeg",
+                image: "fgc66027.jpeg",
                 stock: 239,
                 disponible: true
             }, {
                 id: "FGC 66028",
                 category: "carreaux-60x60",
-                image: "FGC66028.jpeg",
+                image: "fgc66028.jpeg",
                 stock: 64,
                 disponible: true
-            }, {
+            }, 
+            {
                 id: "FGC 66029",
                 category: "carreaux-60x60",
-                image: "FGC66029.jpeg",
+                image: "fgc66029.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             },
-            /* ===== YMP ===== */
             {
-                id: "YMP 66001",
+                id: "FGC 66030",
                 category: "carreaux-60x60",
-                image: "YMP66001.jpeg",
-                stock: 284,
-                disponible: true
-            }, {
-                id: "YMP 66002",
-                category: "carreaux-60x60",
-                image: "YMP66002.jpeg",
-                stock: 292,
-                disponible: true
-            }, {
-                id: "YMP 66004",
-                category: "carreaux-60x60",
-                image: "YMP66004.jpeg",
-                stock: 16,
-                disponible: true
-            }, {
-                id: "YMP 66006",
-                category: "carreaux-60x60",
-                image: "YMP66006.jpeg",
-                stock: 1218,
-                disponible: true
-            }, {
-                id: "YMP 66007",
-                category: "carreaux-60x60",
-                image: "YMP66007.jpeg",
-                stock: 38,
-                disponible: true
-            }, {
-                id: "YMP 66008",
-                category: "carreaux-60x60",
-                image: "YMP66008.jpeg",
-                stock: 157,
-                disponible: true
-            }, {
-                id: "YMP 66009",
-                category: "carreaux-60x60",
-                image: "YMP66009.jpeg",
+                image: "fgc66030.jpeg",
                 stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66010",
-                category: "carreaux-60x60",
-                image: "YMP66010.jpeg",
-                stock: 36,
                 disponible: true
-            }, {
-                id: "YMP 66011",
-                category: "carreaux-60x60",
-                image: "YMP66011.jpeg",
-                stock: 110,
-                disponible: true
-            }, {
-                id: "YMP 66012",
-                category: "carreaux-60x60",
-                image: "YMP66012.jpeg",
-                stock: 18,
-                disponible: true
-            }, {
-                id: "YMP 66013",
-                category: "carreaux-60x60",
-                image: "YMP66013.jpeg",
-                stock: 192,
-                disponible: true
-            }, {
-                id: "YMP 66022",
-                category: "carreaux-60x60",
-                image: "YMP66022.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66024",
-                category: "carreaux-60x60",
-                image: "YMP66024.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66028",
-                category: "carreaux-60x60",
-                image: "YMP66028.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66031",
-                category: "carreaux-60x60",
-                image: "YMP66031.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66032",
-                category: "carreaux-60x60",
-                image: "YMP66032.jpeg",
-                stock: 26,
-                disponible: true
-            }, {
-                id: "YMP 66036",
-                category: "carreaux-60x60",
-                image: "YMP66036.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66038",
-                category: "carreaux-60x60",
-                image: "YMP66038.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66039",
-                category: "carreaux-60x60",
-                image: "YMP66039.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66042",
-                category: "carreaux-60x60",
-                image: "YMP66042.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66047",
-                category: "carreaux-60x60",
-                image: "YMP66047.jpeg",
-                stock: 404,
-                disponible: true
-            }, {
-                id: "YMP 66050",
-                category: "carreaux-60x60",
-                image: "YMP66050.jpeg",
-                stock: 71,
-                disponible: true
-            }, {
-                id: "YMP 66051",
-                category: "carreaux-60x60",
-                image: "YMP66051.jpeg",
-                stock: 188,
-                disponible: true
-            }, {
-                id: "YMP 66052",
-                category: "carreaux-60x60",
-                image: "YMP66052.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66053",
-                category: "carreaux-60x60",
-                image: "YMP66053.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66055",
-                category: "carreaux-60x60",
-                image: "YMP66055.jpeg",
-                stock: 471,
-                disponible: true
-            }, {
-                id: "YMP 66113",
-                category: "carreaux-60x60",
-                image: "YMP66113.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66135",
-                category: "carreaux-60x60",
-                image: "YMP66135.jpeg",
-                stock: 43,
-                disponible: true
-            }, {
-                id: "YMP 66137",
-                category: "carreaux-60x60",
-                image: "YMP66137.jpeg",
-                stock: 0,
-                disponible: false
-            }, {
-                id: "YMP 66992",
-                category: "carreaux-60x60",
-                image: "YMP66992.jpeg",
-                stock: 10,
-                disponible: false
             },
             /* ===== YMG ===== */
             {
                 id: "YMG 66001",
                 category: "carreaux-60x60",
-                image: "YMG66001.jpeg",
+                image: "ymg66001.jpeg",
                 stock: 85,
                 disponible: true
             }, {
                 id: "YMG 66002",
                 category: "carreaux-60x60",
-                image: "YMG66002.jpeg",
+                image: "ymg66002.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 66005",
                 category: "carreaux-60x60",
-                image: "YMG66005.jpeg",
+                image: "ymg66005.jpeg",
                 stock: 199,
                 disponible: true
             }, {
                 id: "YMG 66010",
                 category: "carreaux-60x60",
-                image: "YMG66010.jpeg",
+                image: "ymg66010.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 66012",
                 category: "carreaux-60x60",
-                image: "YMG66012.jpeg",
+                image: "ymg66012.jpeg",
                 stock: 50,
                 disponible: true
             }, {
                 id: "YMG 66013",
                 category: "carreaux-60x60",
-                image: "YMG66013.jpeg",
+                image: "ymg66013.jpeg",
                 stock: 608,
                 disponible: true
             }, {
                 id: "YMG 66023",
                 category: "carreaux-60x60",
-                image: "YMG66023.jpeg",
+                image: "ymg66023.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMG 66025",
                 category: "carreaux-60x60",
-                image: "YMG66025.jpeg",
+                image: "ymg66025.jpeg",
                 stock: 106,
                 disponible: true
             }, {
                 id: "YMG 66027",
                 category: "carreaux-60x60",
-                image: "YMG66027.jpeg",
+                image: "ymg66027.jpeg",
                 stock: 43,
+                disponible: true
+            },
+            /* ===== YMP ===== */
+            {
+                id: "YMP 66001",
+                category: "carreaux-60x60",
+                image: "ymp66001.jpeg",
+                stock: 284,
+                disponible: true
+            }, 
+            // {
+            //     id: "YMP 66002",
+            //     category: "carreaux-60x60",
+            //     image: "ymp66002.jpeg",
+            //     stock: 292,
+            //     disponible: true
+            // }, 
+            {
+                id: "YMP 66004",
+                category: "carreaux-60x60",
+                image: "ymp66004.jpeg",
+                stock: 16,
+                disponible: true
+            }, {
+                id: "YMP 66006",
+                category: "carreaux-60x60",
+                image: "ymp66006.jpeg",
+                stock: 1218,
+                disponible: true
+            }, {
+                id: "YMP 66007",
+                category: "carreaux-60x60",
+                image: "ymp66007.jpeg",
+                stock: 38,
+                disponible: true
+            }, {
+                id: "YMP 66008",
+                category: "carreaux-60x60",
+                image: "ymp66008.jpeg",
+                stock: 157,
+                disponible: true
+            }, {
+                id: "YMP 66009",
+                category: "carreaux-60x60",
+                image: "ymp66009.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66010",
+                category: "carreaux-60x60",
+                image: "ymp66010.jpeg",
+                stock: 36,
+                disponible: true
+            }, {
+                id: "YMP 66011",
+                category: "carreaux-60x60",
+                image: "ymp66011.jpeg",
+                stock: 110,
+                disponible: true
+            }, {
+                id: "YMP 66012",
+                category: "carreaux-60x60",
+                image: "ymp66012.jpeg",
+                stock: 18,
+                disponible: true
+            }, {
+                id: "YMP 66013",
+                category: "carreaux-60x60",
+                image: "ymp66013.jpeg",
+                stock: 192,
+                disponible: true
+            }, {
+                id: "YMP 66022",
+                category: "carreaux-60x60",
+                image: "ymp66022.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66024",
+                category: "carreaux-60x60",
+                image: "ymp66024.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66028",
+                category: "carreaux-60x60",
+                image: "ymp66028.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66031",
+                category: "carreaux-60x60",
+                image: "ymp66031.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66032",
+                category: "carreaux-60x60",
+                image: "ymp66032.jpeg",
+                stock: 26,
+                disponible: true
+            }, {
+                id: "YMP 66036",
+                category: "carreaux-60x60",
+                image: "ymp66036.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66038",
+                category: "carreaux-60x60",
+                image: "ymp66038.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66039",
+                category: "carreaux-60x60",
+                image: "ymp66039.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66040",
+                category: "carreaux-60x60",
+                image: "ymp66040.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66042",
+                category: "carreaux-60x60",
+                image: "ymp66042.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66047",
+                category: "carreaux-60x60",
+                image: "ymp66047.jpeg",
+                stock: 404,
+                disponible: true
+            }, {
+                id: "YMP 66050",
+                category: "carreaux-60x60",
+                image: "ymp66050.jpeg",
+                stock: 71,
+                disponible: true
+            }, {
+                id: "YMP 66051",
+                category: "carreaux-60x60",
+                image: "ymp66051.jpeg",
+                stock: 188,
+                disponible: true
+            }, {
+                id: "YMP 66052",
+                category: "carreaux-60x60",
+                image: "ymp66052.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66053",
+                category: "carreaux-60x60",
+                image: "ymp66053.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66055",
+                category: "carreaux-60x60",
+                image: "ymp66055.jpeg",
+                stock: 471,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66062",
+                category: "carreaux-60x60",
+                image: "ymp66062.jpeg",
+                stock: 471,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66063",
+                category: "carreaux-60x60",
+                image: "ymp66063.jpeg",
+                stock: 471,
+                disponible: true
+            }, 
+            // {
+            //     id: "YMP 66064",
+            //     category: "carreaux-60x60",
+            //     image: "ymp66064.jpeg",
+            //     stock: 471,
+            //     disponible: true
+            // }, 
+            // {
+            //     id: "YMP 66065",
+            //     category: "carreaux-60x60",
+            //     image: "ymp66065.jpeg",
+            //     stock: 471,
+            //     disponible: true
+            // }, 
+            {
+                id: "YMP 66066",
+                category: "carreaux-60x60",
+                image: "ymp66066.jpeg",
+                stock: 471,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66113",
+                category: "carreaux-60x60",
+                image: "ymp66113.jpeg",
+                stock: 0,
+                disponible: true
+            }, {
+                id: "YMP 66135",
+                category: "carreaux-60x60",
+                image: "ymp66135.jpeg",
+                stock: 43,
+                disponible: true
+            }, {
+                id: "YMP 66137",
+                category: "carreaux-60x60",
+                image: "ymp66137.jpeg",
+                stock: 0,
+                disponible: true
+            }, 
+            {
+                id: "YMP 66408",
+                category: "carreaux-60x60",
+                image: "ymp66408.jpeg",
+                stock: 10,
+                disponible: true
+            },
+            {
+                id: "YMP 66448",
+                category: "carreaux-60x60",
+                image: "ymp66448.jpeg",
+                stock: 10,
+                disponible: true
+            },
+            {
+                id: "YMP 66992",
+                category: "carreaux-60x60",
+                image: "ymp66992.jpeg",
+                stock: 10,
+                disponible: true
+            },
+            
+            /* ===== PGC ===== */
+            {
+                id: "PGC 66001",
+                category: "carreaux-60x60",
+                image: "pgc66001.jpeg",
+                stock: 65,
+                disponible: true
+            }, {
+                id: "PGC 66009",
+                category: "carreaux-60x60",
+                image: "pgc66009.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            /* ===== PGP ===== */
+            {
+                id: "PGP 66001",
+                category: "carreaux-60x60",
+                image: "pgp66001.jpeg",
+                stock: 46,
+                disponible: true
+            }, {
+                id: "PGP 66005",
+                category: "carreaux-60x60",
+                image: "pgp66005.jpeg",
+                stock: 0,
+                disponible: true
+            },
+            {
+                id: "PGP 66007",
+                category: "carreaux-60x60",
+                image: "pgp66007.jpeg",
+                stock: 23,
                 disponible: true
             },
             /* ===== PGS ===== */
             {
                 id: "PGS 66026",
                 category: "carreaux-60x60",
-                image: "PGS66026.jpeg",
+                image: "pgs66026.jpeg",
                 stock: 50,
-                disponible: false
+                disponible: true
             }, {
                 id: "PGS 66029",
                 category: "carreaux-60x60",
-                image: "PGS66029.jpeg",
+                image: "pgs66029.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PGS 66222",
                 category: "carreaux-60x60",
-                image: "PGS66222.jpeg",
+                image: "pgs66222.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "PGS 66267",
                 category: "carreaux-60x60",
-                image: "PGS66267.jpeg",
+                image: "pgs66267.jpeg",
                 stock: 499,
                 disponible: true
             }, {
                 id: "PGS 66281",
                 category: "carreaux-60x60",
-                image: "PGS66281.jpeg",
+                image: "pgs66281.jpeg",
                 stock: 0,
-                disponible: false
-            },
-            /* ===== PGP ===== */
-            {
-                id: "PGP 66001",
-                category: "carreaux-60x60",
-                image: "PGP66001.jpeg",
-                stock: 46,
                 disponible: true
-            }, {
-                id: "PGP 66005",
-                category: "carreaux-60x60",
-                image: "PGP66005.jpeg",
-                stock: 0,
-                disponible: false
             },
-            // {
-            //     id: "PGP 66007",
-            //     category: "carreaux-60x60",
-            //     image: "PGP66007.jpeg",
-            //     stock: 23,
-            //     disponible: true
-            // },
-            /* ===== PGC ===== */
-            {
-                id: "PGC 66001",
-                category: "carreaux-60x60",
-                image: "PGC66001.jpeg",
-                stock: 65,
-                disponible: true
-            }, {
-                id: "PGC 66009",
-                category: "carreaux-60x60",
-                image: "PGC66009.jpeg",
-                stock: 0,
-                disponible: false
-            },
+            
+            
 
             /* ── carreaux-60x120 ── */
             {
                 id: "YMP 612001",
                 category: "carreaux-60x120",
-                image: "YMP612001.jpeg",
+                image: "ymp612001.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMP 612002",
                 category: "carreaux-60x120",
-                image: "YMP612002.jpeg",
+                image: "ymp612002.jpeg",
                 stock: 246,
                 disponible: true
             }, {
                 id: "YMP 612003",
                 category: "carreaux-60x120",
-                image: "YMP612003.jpeg",
+                image: "ymp612003.jpeg",
                 stock: 99,
                 disponible: true
             }, {
                 id: "YMP 612004",
                 category: "carreaux-60x120",
-                image: "YMP612004.jpeg",
+                image: "ymp612004.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMP 612005",
                 category: "carreaux-60x120",
-                image: "YMP612005.jpeg",
+                image: "ymp612005.jpeg",
                 stock: 345,
                 disponible: true
             }, {
                 id: "YMP 612008",
                 category: "carreaux-60x120",
-                image: "YMP612008.jpeg",
+                image: "ymp612008.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             }, {
                 id: "YMP 612009",
                 category: "carreaux-60x120",
-                image: "YMP612009.jpeg",
+                image: "ymp612009.jpeg",
                 stock: 71,
                 disponible: true
             }, {
                 id: "YMP 612012",
                 category: "carreaux-60x120",
-                image: "YMP612012.jpeg",
+                image: "ymp612012.jpeg",
                 stock: 50,
                 disponible: true
             }, {
                 id: "YMP 612014",
                 category: "carreaux-60x120",
-                image: "YMP612014.jpeg",
+                image: "ymp612014.jpeg",
                 stock: 0,
-                disponible: false
+                disponible: true
             },
 
             /* ── tole ── */
-            {
-                id: "Tole ondule",
-                category: "tole",
-                image: "TOLE_ONDULEE.jpeg",
-                stock: 0,
-                disponible: true
-            }, {
-                id: "Tole bac",
-                category: "tole",
-                image: "tolebac.jpeg",
-                stock: 0,
-                disponible: true
-            },
+            // {
+            //     id: "Tole ondule",
+            //     category: "tole",
+            //     image: "toleondulee.jpeg",
+            //     stock: 0,
+            //     disponible: true
+            // }, {
+            //     id: "Tole bac",
+            //     category: "tole",
+            //     image: "tolebac.jpeg",
+            //     stock: 0,
+            //     disponible: true
+            // },
 
             /* ── accessoire ── */
-            {
-                id: "Naissance goutiere",
-                category: "accessoire",
-                image: "naissancegouttiere.jpeg",
-                stock: 26,
-                disponible: true
-            }, {
-                id: "Goutiere",
-                category: "accessoire",
-                image: "goutiere.jpeg",
-                stock: 45,
-                disponible: true
-            },
+            // {
+            //     id: "Naissance goutiere",
+            //     category: "accessoire",
+            //     image: "naissancegouttiere.jpeg",
+            //     stock: 26,
+            //     disponible: true
+            // }, {
+            //     id: "Goutiere",
+            //     category: "accessoire",
+            //     image: "goutiere.jpeg",
+            //     stock: 45,
+            //     disponible: true
+            // },
 
             /* ── ciment-colle ── */
-            {
-                id: "Ciment colle multiflex",
-                category: "ciment-colle",
-                image: "multiflexe.jpeg",
-                stock: 7381,
-                disponible: true
-            }, {
-                id: "Ciment colle flexicol",
-                category: "ciment-colle",
-                image: "flexicol.jpeg",
-                stock: 0,
-                disponible: false
-            },
+            // {
+            //     id: "Ciment colle multiflex",
+            //     category: "ciment-colle",
+            //     image: "multiflexe.jpeg",
+            //     stock: 7381,
+            //     disponible: true
+            // }, {
+            //     id: "Ciment colle flexicol",
+            //     category: "ciment-colle",
+            //     image: "flexicol.jpeg",
+            //     stock: 0,
+            //     disponible: true
+            // },
         ];
-
 
         let cart = [];
         const BASE_IMAGE_URL = "https://catalogue-materiaux-construction.vercel.app/";
