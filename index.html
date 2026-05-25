@@ -4,22 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOLIDE BUILDING SARL Stock Catalogue | Gestion Dynamique</title>
+    <title>PILOTE CONSTRUCTION SARL Stock Catalogue | Gestion Dynamique</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
          :root {
-            --primary-white: #ffffff;
-            --secondary-bg: #f8f9fa;
-            --pilote-blue: #0046ad;
-            --pilote-red: #e63946;
-            --text-dark: #1d3557;
-            --text-muted: #6c757d;
-            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    --primary-white: #ffffff;
+    --secondary-bg: #f5f5f5;
+
+    /* Nouveau thème Gold & Black */
+    --pilote-blue: #c8a44d;
+    --pilote-red: #111111;
+
+    /* Couleurs texte */
+    --text-dark: #111111;
+    --text-muted: #777777;
+
+    /* Ombres plus luxueuses */
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
         
         * {
             margin: 0;
@@ -423,7 +430,7 @@
 
     <div id="main-content" style="opacity: 0; pointer-events: none;">
         <header>
-            <div class="logo">SOLIDE BUILDING <span>SARL</span></div>
+            <div class="logo">PILOTE CONSTRUCTION <span>SARL</span></div>
             <div class="cart-trigger" onclick="toggleCart()">
                 <i class="fas fa-shopping-basket"></i>
                 <div class="cart-count" id="cart-count">0</div>
