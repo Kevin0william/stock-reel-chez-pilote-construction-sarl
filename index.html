@@ -2710,34 +2710,28 @@
 
         // 5. ENVOI WHATSAPP
         function sendToWhatsApp() {
-            if (cart.length === 0) {
-                alert("Votre panier est vide !");
-                return;
-            }
 
-            let phone = document.getElementById('whatsapp-num').value.replace(/\s+/g, '');
-            if (!phone.startsWith('+')) phone = '+' + phone;
+    if (cart.length === 0) {
+        alert("Votre panier est vide !");
+        return;
+    }
 
-            let message = "Voici les differents produits disponible ! :\n\n";
+    let message = "Voici les différents produits disponibles :\n\n";
 
-            cart.forEach((item, index) => {
-                message += `🔹 *Produit ${index + 1}* : ${item.id}\n`;
-                message += `🔗 Image : ${BASE_IMAGE_URL}${item.img}\n\n`;
-            });
+    cart.forEach((item, index) => {
+        message += `🔹 *Produit ${index + 1}* : ${item.id}\n`;
+        message += `🔗 Image : ${BASE_IMAGE_URL}${item.img}\n\n`;
+    });
 
-            message += "Cliquer sur un lien pour voir l'image du produit !";
+    message += "Cliquer sur un lien pour voir l'image du produit !";
 
-            const encodedMsg = encodeURIComponent(message);
-            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMsg}`;
+    const encodedMsg = encodeURIComponent(message);
 
-            window.open(whatsappUrl, '_blank');
-        }
+    const whatsappUrl =
+        `https://api.whatsapp.com/send?text=${encodedMsg}`;
 
-        // Init page
-        window.onload = () => {
-            displayProducts(products);
-            document.body.style.overflow = "hidden"; // Bloque scroll au départ
-        }
+    window.open(whatsappUrl, '_blank');
+}
     </script>
 </body>
 
