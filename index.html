@@ -2710,34 +2710,30 @@
 
         // 5. ENVOI WHATSAPP
         function sendToWhatsApp() {
-            if (cart.length === 0) {
-                alert("Votre panier est vide !");
-                return;
-            }
 
-            let phone = document.getElementById('whatsapp-num').value.replace(/\s+/g, '');
-            if (!phone.startsWith('+')) phone = '+' + phone;
+    if (cart.length === 0) {
+        alert("Le panier est vide");
+        return;
+    }
 
-            let message = "Voici les differents produits disponible ! :\n\n";
+    let message = "Bonjour, voici ma commande :\n\n";
 
-            cart.forEach((item, index) => {
-                message += `🔹 *Produit ${index + 1}* : ${item.id}\n`;
-                message += `🔗 Image : ${BASE_IMAGE_URL}${item.img}\n\n`;
-            });
+    cart.forEach((item, index) => {
 
-            message += "Cliquer sur un lien pour voir l'image du produit !";
+        const imageUrl =
+            "https://catalogue-materiaux-de-construction.vercel.app/" +
+            item.image;
 
-            const encodedMsg = encodeURIComponent(message);
-            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedMsg}`;
+        message +=
+            `${index + 1}. ${item.id}\n` +
+            `${imageUrl}\n\n`;
+    });
 
-            window.open(whatsappUrl, '_blank');
-        }
-
-        // Init page
-        window.onload = () => {
-            displayProducts(products);
-            document.body.style.overflow = "hidden"; // Bloque scroll au départ
-        }
+    window.open(
+        `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`,
+        '_blank'
+    );
+}
     </script>
 </body>
 
